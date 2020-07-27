@@ -400,3 +400,60 @@ button[type="submit"] {
     max-width: 50%;
 }
 }
+
+.tilesWrap {
+	padding: 0;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
+}
+
+.tilesWrap li {
+	display: inline-block;
+	width: 20%;
+	min-width: 200px;
+	max-width: 230px;
+	padding: 80px 20px 40px;
+	position: relative;
+	vertical-align: top;
+	margin: 10px;
+	font-family: 'helvetica', san-serif;
+	min-height: 25vh;
+	background: #262a2b;
+	border: 1px solid #252727;
+	text-align: left;
+}
+.tilesWrap li h2 {
+	font-size: 114px;
+	margin: 0;
+	position: absolute;
+	opacity: 0.2;
+	top: 50px;
+	right: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.tilesWrap li h3 {
+	font-size: 20px;
+	color: #b7b7b7;
+	margin-bottom: 5px;
+}
+.tilesWrap li p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #b7b7b7;
+	margin-top: 5px;
+}
+.tilesWrap li button {
+	background: transparent;
+	border: 1px solid #b7b7b7;
+	padding: 10px 20px;
+	color: #b7b7b7;
+	border-radius: 3px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	transform: translateY(-40px);
+	opacity: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
